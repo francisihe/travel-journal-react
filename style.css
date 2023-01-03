@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+    width: 100%;
+    background-color: #F55A5A;
+    margin: 0px;
+    padding: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 0px 15px;
+}
+
+.logo-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.app-title {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.cardImgDiv {
+    max-width: 125px;
+    max-height: 180px;
+}
+
+.cardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-container {
+    display: flex;
+    padding: 20px 35px;
+    max-width: 600px;
+    /* max-height: 200px; */
+    margin: 0px auto;
+}
+
+.info-section {
+    padding: 10px 15px;
+    align-items: center;
+}
+
+.location-info {
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    margin: 0px;
+}
+
+.location-icon {
+    padding-right: 3px;
+    color: #F55A5A;
+}
+
+.map-coordinates {
+    margin-left: 10px;
+}
+
+.location-title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+}
+
+.vacation-date {
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 0.70rem;
+}
+
+.description {
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 0.75rem;
+    line-height: 1.15;
+}
